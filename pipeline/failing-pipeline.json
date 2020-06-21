@@ -5,6 +5,7 @@
 		"activities": [
 			{
 				"name": "Get Metadata Allowed",
+				"description": "This activity will run without problems.",
 				"type": "GetMetadata",
 				"dependsOn": [],
 				"policy": {
@@ -34,6 +35,7 @@
 			},
 			{
 				"name": "Get Metadata Denied",
+				"description": "This activity will fail always.",
 				"type": "GetMetadata",
 				"dependsOn": [
 					{
