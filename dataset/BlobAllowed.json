@@ -1,0 +1,18 @@
+{
+	"name": "BlobAllowed",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "containeraccessallowed"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
