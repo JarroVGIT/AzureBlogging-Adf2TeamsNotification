@@ -49,8 +49,7 @@
 		],
 		"parameters": {
 			"webhook_url": {
-				"type": "string",
-				"defaultValue": "https://outlook.office.com/webhook/deeac0ad-ba68-4c73-aead-4e0e1fe529a8@2346302d-8e35-4ba8-8022-b7f19e365744/IncomingWebhook/3abc952c17934cbe8fe549e507ccff5f/101c1c79-9ec0-4c8f-ac6a-eb5625f94e7a"
+				"type": "string"
 			}
 		},
 		"annotations": []
